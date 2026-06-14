@@ -24,7 +24,7 @@
 
 🌗 Dark mode support
 
-****🛠️ Tech Stack**
+**🛠️ Tech Stack
 **
   Frontend: React, Tailwind CSS, Framer Motion
   
