@@ -1,3 +1,5 @@
+🌉 Bhasha Bridge
+
 An AI-powered Indian slang translator that helps you communicate professionally. Type Hinglish, Marathi, Tamil, or Bengali slang and instantly get formal, boardroom-ready English translations — complete with tone detection, intent analysis, and suggested professional replies.
 
 ✨ Key Features
