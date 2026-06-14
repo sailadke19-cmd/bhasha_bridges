@@ -27,5 +27,7 @@
 **🛠️ Tech Stack**
 
   Frontend: React, Tailwind CSS, Framer Motion
+  
   Backend: FastAPI, Python 
+  
   Database: MongoDB (with local JSON fallback) AI: Gemini / Groq (Llama)
