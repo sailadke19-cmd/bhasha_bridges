@@ -11,7 +11,6 @@ Multilingual translation services are available through a number of translation 
 An structured AI-based translation process is used through the Bhasha Bridge AI Translator. Firstly, the user uses the web application to input text or audio. The system uses Natural Language Processing (NLP) and a proprietary Indian slang dataset to detect the input language and recognize slang terms, acronyms, and mixed-language expressions. The Groq Large Language Model (LLM), which comprehends the context and produces an accurate translation while maintaining the original meaning and tone, receives the processed text after that. Additionally, the algorithm detects the tone of the communication and categorizes it as formal, informal, urgent, friendly, or caustic. The user is then presented with the translated text and tone information, and the translation history is safely saved in MongoDB Atlas for later use.
 
 ##Implementation
-
 **Frontend**
 - React.js
 - HTML
@@ -58,19 +57,19 @@ Mixed-language exchanges are successfully translated by the algorithm while main
 
 ## Future Scope
 - Support additional Indian regional languages.
-- 
+  
 - Mobile application for Android and iOS.
-- 
+ 
 - Offline translation capability.
-- 
+ 
 - Voice-to-voice translation.
-- 
+ 
 - Real-time multilingual chat.
 
 - AI pronunciation assistance.
-- 
-- Personalized translation suggestions.
   
+- Personalized translation suggestions.
+
 ## Conculusion  
 Bhasha Bridge AI Translator is an intelligent multilingual software that accurately translates regional languages and slang by combining Whisper, EasyOCR, Llama 3, and RAG. By offering context-aware translations across various input types, it assists users in overcoming language obstacles. The research shows how AI can enhance digital language comprehension, communication, and accessibility.
 
