@@ -46,18 +46,34 @@ Mixed-language exchanges are successfully translated by the algorithm while main
 
 
 ## Limitation
-```
-Talk about Limitation
-```
+-For AI-based translation, a stable internet connection is required.
+-The amount and quality of the slang training dataset determine accuracy.
+-Slang that has recently emerged and uncommon regional dialects might not always be understood.
+-Sometimes context or cultural phrases are misinterpreted by AI-generated translations.
+-Request and consumption limits apply to free API plans (like Groq).
+-Response times may rise if a lot of text is processed.
+-Accents and background noise can have an impact on the accuracy of voice recognition.
+-Only a few Indian languages and dialects are supported at this time.
+-These restrictions are reasonable and suitable for a report on a college assignment.
 
 ## Future Scope
-```
-Mention possible improvements or next steps.
-```
+- Support additional Indian regional languages.
+- 
+- Mobile application for Android and iOS.
+- 
+- Offline translation capability.
+- 
+- Voice-to-voice translation.
+- 
+- Real-time multilingual chat.
+
+- AI pronunciation assistance.
+- 
+- Personalized translation suggestions.
+  
 ## Conculusion  
-```
-Summarize your findings and contributions.
-```
+Bhasha Bridge AI Translator is an intelligent multilingual software that accurately translates regional languages and slang by combining Whisper, EasyOCR, Llama 3, and RAG. By offering context-aware translations across various input types, it assists users in overcoming language obstacles. The research shows how AI can enhance digital language comprehension, communication, and accessibility.
+
 ## References
 ```
 [1] Author, "Paper Title," Journal/Conference, Year.
