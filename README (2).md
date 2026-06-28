@@ -11,30 +11,36 @@ Multilingual translation services are available through a number of translation 
 An structured AI-based translation process is used through the Bhasha Bridge AI Translator. Firstly, the user uses the web application to input text or audio. The system uses Natural Language Processing (NLP) and a proprietary Indian slang dataset to detect the input language and recognize slang terms, acronyms, and mixed-language expressions. The Groq Large Language Model (LLM), which comprehends the context and produces an accurate translation while maintaining the original meaning and tone, receives the processed text after that. Additionally, the algorithm detects the tone of the communication and categorizes it as formal, informal, urgent, friendly, or caustic. The user is then presented with the translated text and tone information, and the translation history is safely saved in MongoDB Atlas for later use.
 
 
-## Implementation
+ ##Implementation
 
-****Frontend****
-React.js
-Vite
-Tailwind CSS
-Axios
-****Backend****
-FastAPI
-Python
-JWT Authentication
-****Database****
-MongoDB Atlas
-****AI****
-Groq API
-NLP
-Custom In**dian Slang Dataset
-****APIs****
-Groq API
-Language Detection API
-****Deployment****
-Frontend → Vercel
-Backend → Render
-Database → MongoDB Atlas
+## Frontend
+- React.js
+- HTML
+- CSS
+- JavaScript
+
+## Backend
+- FastAPI (Python)
+
+## Database
+- MongoDB
+
+## AI Technologies
+- Whisper (Speech-to-Text)
+- EasyOCR
+- Llama 3 (Groq API)
+- Retrieval-Augmented Generation (RAG)
+
+## Authentication
+- JWT Authentication
+
+## Deployment
+- Vercel
+- Render
+
+## Version Control
+- Git & GitHub
+
 
 ## Results and Discussion
 Mixed-language exchanges are successfully translated by the algorithm while maintaining emotion and context. By recognizing colloquial terms and producing natural translations, it outperforms literal translation systems for inputs that contain a lot of slang. By showing whether a message is formal, urgent, or friendly, tone detection enhances communication even further. These features are useful for multilingual communication, e-commerce, and customer service. Contextual and multilingual translation are becoming more and more important in Indian language artificial intelligence.
