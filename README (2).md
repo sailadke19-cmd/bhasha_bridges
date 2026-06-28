@@ -75,8 +75,11 @@ Mixed-language exchanges are successfully translated by the algorithm while main
 Bhasha Bridge AI Translator is an intelligent multilingual software that accurately translates regional languages and slang by combining Whisper, EasyOCR, Llama 3, and RAG. By offering context-aware translations across various input types, it assists users in overcoming language obstacles. The research shows how AI can enhance digital language comprehension, communication, and accessibility.
 
 ## References
-```
-[1] Author, "Paper Title," Journal/Conference, Year.
-[2] Author, "Another Paper," Year.
-[3] text links
-```
+1. OpenAI. *Whisper: Robust Speech Recognition via Large-Scale Weak Supervision*, 2022.
+2. Lewis, P., et al. *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*, NeurIPS, 2020.
+3. Meta AI. *Llama 3 Documentation*.
+4. EasyOCR Documentation.
+5. FastAPI Documentation.
+6. MongoDB Documentation.
+7. React Documentation.
+8. Groq API Documentation.
