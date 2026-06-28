@@ -11,19 +11,20 @@ Multilingual translation services are available through a number of translation 
 An structured AI-based translation process is used through the Bhasha Bridge AI Translator. Firstly, the user uses the web application to input text or audio. The system uses Natural Language Processing (NLP) and a proprietary Indian slang dataset to detect the input language and recognize slang terms, acronyms, and mixed-language expressions. The Groq Large Language Model (LLM), which comprehends the context and produces an accurate translation while maintaining the original meaning and tone, receives the processed text after that. Additionally, the algorithm detects the tone of the communication and categorizes it as formal, informal, urgent, friendly, or caustic. The user is then presented with the translated text and tone information, and the translation history is safely saved in MongoDB Atlas for later use.
 
 ##Implementation
+
 **Frontend**
 - React.js
 - HTML
 - CSS
 - JavaScript
 
-** Backend**
+**Backend**
 - FastAPI (Python)
 
-** Database**
+**Database**
 - MongoDB
 
-** AI Technologies**
+**AI Technologies**
 - Whisper (Speech-to-Text)
 - EasyOCR
 - Llama 3 (Groq API)
@@ -32,7 +33,7 @@ An structured AI-based translation process is used through the Bhasha Bridge AI 
  **Authentication**
 - JWT Authentication
 
-** Deployment**
+**Deployment**
 - Vercel
 - Render
 
