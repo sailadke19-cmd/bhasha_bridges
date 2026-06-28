@@ -1,7 +1,7 @@
 ## Abstract
 An AI-powered translation system called Bhasha Bridge AI Translator can understand discussions in multiple languages, regional Indian languages, and internet-based slang like Tanglish, Hinglish, and Marathi. In contrast to conventional translators, it maintains informal statements' context, tone, and meaning. The system provides precise translations and tone identification (formal, informal, urgent, etc.) using Natural Language Processing (NLP), Large Language Models (LLMs), and a proprietary Indian slang dataset. It was created with React, FastAPI, MongoDB Atlas, and Groq AI to provide real-time, context-aware translation for multilingual users, businesses, students, and customer care teams. The technology makes translations more natural and meaningful while assisting in overcoming language barriers and enhancing communication throughout India's diverse linguistic environment.
 
-## introduction
+## Introduction
 Millions of people in India use mixed-language words like Hinglish, Tanglish, Banglish, and Marathi slang on a daily basis. The country is home to hundreds of languages and dialects. Current translation tools frequently translate words literally and are unable to comprehend the tone or true meaning of casual discussions. This leads to communication issues in social media, e-commerce, customer service, and education. By comprehending both language and context, Bhasha Bridge AI Translator resolves this issue. After identifying slang, regional idioms, abbreviations, emoticons, and casual speech, it accurately translates text while also detecting tone and providing an explanation of its meaning.
 
 ## Literature review
@@ -10,35 +10,34 @@ Multilingual translation services are available through a number of translation 
 ## Methodology
 An structured AI-based translation process is used through the Bhasha Bridge AI Translator. Firstly, the user uses the web application to input text or audio. The system uses Natural Language Processing (NLP) and a proprietary Indian slang dataset to detect the input language and recognize slang terms, acronyms, and mixed-language expressions. The Groq Large Language Model (LLM), which comprehends the context and produces an accurate translation while maintaining the original meaning and tone, receives the processed text after that. Additionally, the algorithm detects the tone of the communication and categorizes it as formal, informal, urgent, friendly, or caustic. The user is then presented with the translated text and tone information, and the translation history is safely saved in MongoDB Atlas for later use.
 
+##Implementation
 
- ##Implementation
-
-## Frontend
+# Frontend
 - React.js
 - HTML
 - CSS
 - JavaScript
 
-## Backend
+# Backend
 - FastAPI (Python)
 
-## Database
+# Database
 - MongoDB
 
-## AI Technologies
+# AI Technologies
 - Whisper (Speech-to-Text)
 - EasyOCR
 - Llama 3 (Groq API)
 - Retrieval-Augmented Generation (RAG)
 
-## Authentication
+# Authentication
 - JWT Authentication
 
-## Deployment
+# Deployment
 - Vercel
 - Render
 
-## Version Control
+# Version Control
 - Git & GitHub
 
 
